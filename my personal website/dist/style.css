@@ -1,0 +1,66 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+h2 {
+  align="right"
+}
+
+h3 {
+  align="center"
+}
+
+h4 {
+  align="left"
+}
+
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
+
+.round-aside-img {
+  position: relative;
+  right: 10px;
+  border-radius: 50%;
+  align="right"
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+}
+
+.right-text {
+  position: relative;
+  text-align: right;
+  top: 200px;
+  left: 190px;
+}
+
+.small-image {
+  position: relative;
+}
+
+.c-site-footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.aside {
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+}
