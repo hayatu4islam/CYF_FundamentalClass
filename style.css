@@ -11,29 +11,24 @@ body {
 }
 
 h2 {
-  align="right"
+  align:"right"
 }
 
 h3 {
-  align="center"
+  align:"center"
 }
 
 h4 {
-  align="left"
+  align:"left"
 }
 
 
-/* don't edit this */
-.jest-lite-report__status--pass {
-  background: var(--color-pass);
-}
-.jest-lite-report__errors { display:none }
 
 .round-aside-img {
   position: relative;
   right: 10px;
   border-radius: 50%;
-  align="right"
+  align:"right"
   padding-left: 15px;
   margin-left: 15px;
   float: right;
@@ -48,6 +43,7 @@ h4 {
 
 .small-image {
   position: relative;
+  align:"center"
 }
 
 .c-site-footer {
