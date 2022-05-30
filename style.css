@@ -11,27 +11,36 @@ body {
 }
 
 h2 {
-  align:"right"
+  align:right;
 }
 
 h3 {
-  align:"center"
+  align:"center";
 }
 
 h4 {
-  align:"left"
+  align:"left";
 }
 
+p3 {
+  border: 2px solid powderblue;
+  padding: 30px;
+  border-radius: 50%;
+}
 
 
 .round-aside-img {
   position: relative;
   right: 10px;
   border-radius: 50%;
-  align:"right"
-  padding-left: 15px;
-  margin-left: 15px;
-  float: right;
+  align:"right";
+  padding-left:15px;
+  margin-left:15px;
+  float:right;
+}
+
+.center-text {
+  text-align:center;
 }
 
 .right-text {
@@ -42,9 +51,18 @@ h4 {
 }
 
 .small-image {
-  position: relative;
-  align:"center"
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
+
+.c-site-header {
+  text-align: center;
+  color: rgb(38, 13, 180);
+  font-size: xx-large;
+}
+
 
 .c-site-footer {
   left: 0;
@@ -59,4 +77,18 @@ h4 {
   padding-left: 15px;
   margin-left: 15px;
   float: right;
+}
+
+.fullCard {
+  width: 1245px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  /* margin: 10px 5px; */
+  margin:auto;
+  padding: 4px;
+  align-self: center;
+}
+#cardContent {
+  padding: 10px;
+  background-color: blueviolet;
 }
