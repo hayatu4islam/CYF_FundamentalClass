@@ -24,5 +24,7 @@ document.getElementById('add_comment').addEventListener('click', (event) => {
   new_li.appendChild(new_ol);
 
   element_your_comment.appendChild(new_li);
+  document.getElementById("name").value = "";
+  document.getElementById("comment").value = "";
 
 });
