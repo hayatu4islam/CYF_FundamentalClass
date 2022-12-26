@@ -11,7 +11,7 @@ function getNumberOrString(value) {
 }
 
 
-
+// The JavaScript is generated from CYF Blocks (Block.ly)
 document.getElementById('add_comment').addEventListener('click', (event) => {
   name2 = getNumberOrString(document.getElementById('name').value);
   comment = getNumberOrString(document.getElementById('comment').value);
