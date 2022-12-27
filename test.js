@@ -30,4 +30,4 @@ function ascending(num){
     }
     return result;
 }
-console.log(ascending( 432))
+console.log(ascending( 432));
