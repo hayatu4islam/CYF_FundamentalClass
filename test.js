@@ -1,3 +1,3 @@
-let val = ["a", "b", "c"];
-let newVal = val.split("");
-console.log(newVal);
+let inp = [[], [-4]];
+console.log(Math.max(...inp.flat()));
+// console.log(Math.max([[],[-4]]));
